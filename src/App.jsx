@@ -89,7 +89,7 @@ function App() {
 
   const activePlayer=deriveActivePlayer(gameTurns)
 
-  const gameBoard=deriveGameBoard(gameTurns)
+  const gameBoard=deriveGameBoard(gameTurns )
 
   const winner=deriveWinner(gameBoard,players);
 
